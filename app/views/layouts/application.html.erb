@@ -2,13 +2,25 @@
 <html>
 <head>
   <title>Suggestotron</title>
+  <title>Ares Lesson Vendor</title>
+  <!-- CDN INCLUDES -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="shortcut icon" href="http://www.aresdevelopment.net/wp-content/uploads/2015/03/ADM-spearTIP-ONLY2.ico" type="image/x-icon">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  
+  <!--INTERNAL STYLES-->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
   <%= csrf_meta_tags %>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<div class="maincontain">
 <%= yield %>
-
+</div>
 </body>
 </html>

@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+body{
+    font-family: Roboto, Futura, Helvetica, Arial, sans-serif;
+}
+
+.btn{
+    color:#FFF !important;
+}
+
+.maincontain{
+    margin-left:15px;
+    margin-right:15px;   
+}
+
+.jumbotron{
+    background-image: url('/images/ruby-on-rails.jpg');
+}

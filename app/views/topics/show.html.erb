@@ -1,4 +1,5 @@
-<p id="notice"><%= notice %></p>
+<div class="container" style="margin-top:20px">
+<%if notice %><div class="alert alert-info" id="notice"><%= notice %></div><%end%>
 
 <p>
   <strong>Title:</strong>
@@ -10,5 +11,6 @@
   <%= @topic.description %>
 </p>
 
-<%= link_to 'Edit', edit_topic_path(@topic) %> |
-<%= link_to 'Back', topics_path %>
+<%= link_to 'Edit', edit_topic_path(@topic), class: "btn btn-info" %> |
+<%= link_to 'Back', topics_path, class: "btn btn-primary" %>
+</div>
