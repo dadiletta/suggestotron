@@ -29,3 +29,8 @@ body{
 .jumbotron{
     background-image: url('/images/ruby-on-rails.jpg');
 }
+
+table,td, tr{
+    vertical-align: middle !important;
+    text-align: center;
+}
